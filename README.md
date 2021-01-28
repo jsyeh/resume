@@ -1,3 +1,36 @@
+MY TODO
+=======
+- 2020 May: Kirby Wu 上課時, 有教使用 startbootstrap-resume, 我有做 3次修改
+我在 Kirby Wu 課堂學習時, 有試著用 github 上面的 startbootstrap-resume, 再改它的 index.html
+
+我改了3次
+
+1. &lt;h1 class="mb-0"&gt; 改大名字
+2. 再改一次
+3. 貼上 og
+            <meta property="og:url" content="kirby">
+            <meta property="og:title" content="kirby kirby">
+            <meta property="og:description" content="kirby kirby kirby">
+            <meta property="og:locale"content="zh_TW">
+            <meta property="og:image"content="">
+            <meta property="og:image:type"content="image/jpeg">
+            <meta property="og:image:width"content="1200">
+            <meta property="og:image:height"content="630>
+            <meta property="og:type" content="website">       
+                                                      
+- TODO: 我現在對 HTML/CSS/bootstrap/Web/github 都比較熟了, 再重來一次, 應該會順很多。
+- 我有試著細看 https://github.com/StartBootstrap/startbootstrap-resume/ 對應的資料, 也查作者 Muller 的資訊, 也看到有人不小心把自己修改的 fork 送出 pull request
+  - 關於如何 pull request, [github docs](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) 有介紹
+- 有人在官網問怎麼變色彩, 有人問怎麼改左邊的 navpan, 有人問
+- 有人在官網問 print 的問題, 也有人寫 CSS media print 的檔案, 去調整印出來的效果
+- 可是風格不太合, 因為字會很大、留白會很多, 如果是很多內容的 resume 就很難在一頁裡印出來
+  - https://stackoverflow.com/questions/56246371/print-friendly-web-resume
+  - https://github.com/StartBootstrap/startbootstrap-resume/issues/66
+- fork出來的專案, 不能變 private, 所以 github 建議可以用 mirror 的方式 copy 成新的 private repo
+- 我有在 jsyeh.github.io/startbootstrap-resume 看過, 後來把 repo 改名成 resume, 所以是 jsyeh.github.io/resume
+- 有發現 github pages 可以利用 Jekyll 機制, 來改變 theme [github docs](https://docs.github.com/en/github/working-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser) 也就是 Jekyll 可以幫忙把 Markdown 的 README.md 改成
+- 也有研究 Project social preview image (1280x640 or 640x320) 需要留下邊緣的出血空間
+
 # [Start Bootstrap - Resume](https://startbootstrap.com/theme/resume/)
 
 [Resume](https://startbootstrap.com/theme/resume/) is a resume and CV theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
